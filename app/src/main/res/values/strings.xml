@@ -1,0 +1,61 @@
+<resources>
+    <string name="back">Back</string>
+
+    <string name="app_name">SRCaterers</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_orders">Orders</string>
+    <string name="menu_open_orders">Open Orders</string>
+    <string name="menu_closed_orders">Closed Orders</string>
+    <string name="menu_recipe_list">Recipe List</string>
+    <string name="menu_category_list">Category List</string>
+    <string name="title_activity_category">Category List</string>
+    <string name="title_activity_recipe">Recipe List</string>
+    <string name="close_content_desc">Close</string>
+    <string name="open_content_desc">Open</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+
+    <!--Category Detail-->
+    <string name="category_edit">Edit Category</string>
+    <string name="category_create">Create Category</string>
+    <string name="category_detail">Create Detail</string>
+
+    <!--Recipe-->
+    <string name="recipe">Recipe</string>
+    <string name="recipe_list">Recipe List</string>
+    <string name="recipe_edit">Recipe Edit</string>
+    <string name="recipe_create">Recipe Create</string>
+
+    <!--Order screen-->
+    <string name="date">Date</string>
+    <string name="function_name">Function Name</string>
+    <string name="person_name">Person Name</string>
+    <string name="phone">Phone</string>
+    <string name="nop">NOP</string>
+    <string name="venue">Venue</string>
+    <string name="category">Category</string>
+    <string name="address1">Address1</string>
+    <string name="address2">Address2</string>
+    <string name="address3">Address3</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="postal_code">Postal Code</string>
+
+    <!--Content description-->
+</resources>

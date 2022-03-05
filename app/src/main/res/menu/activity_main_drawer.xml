@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_orders"
+            android:title="@string/menu_open_orders" />
+<!--        <item-->
+<!--            android:id="@+id/nav_closed_orders"-->
+<!--            android:title="@string/menu_closed_orders" />-->
+
+        <item
+            android:id="@+id/nav_recipe_list"
+            android:title="@string/menu_recipe_list" />
+
+        <item
+            android:id="@+id/nav_category_list"
+            android:title="@string/menu_category_list" />
+    </group>
+</menu>

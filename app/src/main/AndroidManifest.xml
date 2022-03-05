@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.srcaterersnasik">
+
+    <application
+        android:name=".SRCatererApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SRCaterers">
+        <activity
+            android:name=".app.order.OrderDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_order_detail"
+            android:theme="@style/Theme.SRCaterers" />
+        <activity
+            android:name=".app.category.CategoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_category"
+            android:theme="@style/Theme.SRCaterers.NoActionBar" />
+        <activity
+            android:name=".app.recipe.RecipeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe"
+            android:theme="@style/Theme.SRCaterers.NoActionBar" />
+        <activity
+            android:name="com.srcaterersnasik.app.HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.SRCaterers.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
